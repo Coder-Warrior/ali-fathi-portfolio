@@ -1367,6 +1367,44 @@ img { max-width: 100%; display: block; }
 .cv-languages strong { font-size: 14px; font-weight: 600; }
 .cv-languages span { font-family: var(--font-mono); font-size: 11px; color: var(--text-mute); }
 
+/* ===== CV Portfolio Highlight ===== */
+.cv-portfolio-highlight {
+  padding: 16px 20px;
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--accent);
+}
+
+.cv-portfolio-url {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent) !important;
+  margin-bottom: 6px !important;
+  word-break: break-all;
+}
+
+.cv-portfolio-desc {
+  font-size: 12px;
+  color: var(--text-soft) !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
+/* Print — keep portfolio link visible */
+@media print {
+  .cv-portfolio-highlight {
+    background: #f5f5f5;
+    border-left-color: #000;
+  }
+  .cv-portfolio-url {
+    color: #000 !important;
+  }
+  .cv-portfolio-desc {
+    color: #333 !important;
+  }
+}
+
 /* ===== Print ===== */
 @media print {
   body { background: white; color: black; cursor: auto; }
