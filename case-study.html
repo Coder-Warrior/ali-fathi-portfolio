@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study — Ali Fathi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="grain"></div>
+  <div class="orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header class="site-header" id="navbar">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">ALI FATHI</span>
+      </a>
+      <nav class="nav" id="navLinks">
+        <a href="index.html#work" class="nav-link">Work</a>
+        <a href="work.html" class="nav-link">All Projects</a>
+        <a href="cv.html" class="nav-link">CV</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <span class="status-pill"><span class="status-dot"></span> Available</span>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="case-main" id="caseMain">
+    <div class="case-not-found" id="caseNotFound" style="display:none;">
+      <h1>Project not found</h1>
+      <a href="work.html" class="btn btn-primary">← All Projects</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">ALI FATHI © 2025</span>
+      <span class="footer-note">Built from scratch. No templates.</span>
+      <a href="work.html" class="footer-top" data-cursor="hover">← All Projects</a>
+    </div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

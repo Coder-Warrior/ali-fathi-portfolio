@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ali Fathi — 17-year-old developer from Alexandria, Egypt. 4 years of building real products.">
+  <title>Ali Fathi — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Grain overlay -->
+  <div class="grain"></div>
+
+  <!-- Noise / gradient orbs -->
+  <div class="orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Preloader with name intro -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-name">
+        <span class="pl-letter">A</span><span class="pl-letter">L</span><span class="pl-letter">I</span>
+        <span class="pl-space"></span>
+        <span class="pl-letter">F</span><span class="pl-letter">A</span><span class="pl-letter">T</span><span class="pl-letter">H</span><span class="pl-letter">I</span>
+      </div>
+      <div class="preloader-sub">Developer · Alexandria, EG · 17</div>
+      <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="navbar">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">ALI FATHI</span>
+      </a>
+      <nav class="nav" id="navLinks">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="work.html" class="nav-link">All Projects</a>
+        <a href="cv.html" class="nav-link">CV</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <span class="status-pill"><span class="status-dot"></span> Available</span>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-text" aria-hidden="true">
+      <span class="bg-word">DEVELOPER</span>
+      <span class="bg-word">DESIGNER</span>
+      <span class="bg-word">BUILDER</span>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-top">
+        <span class="hero-index">01 / 2025</span>
+        <span class="hero-loc">Alexandria · Egypt</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-line">
+          <span class="hero-word" data-text="Hi.">Hi.</span>
+        </span>
+        <span class="hero-line">
+          <span class="hero-word" data-text="I'm Ali.">I'm Ali.</span>
+        </span>
+        <span class="hero-line hero-line-last">
+          <span class="hero-word hero-word-accent" data-text="I build things.">I build things.</span>
+        </span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          A 17-year-old self-taught developer from Alexandria. Four years in.
+          Five production products shipped. This is what I make.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary" data-cursor="hover">
+            <span>View Work</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="cv.html" class="btn btn-ghost" data-cursor="hover">Download CV</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>HTML</span><span class="star">★</span>
+        <span>CSS</span><span class="star">★</span>
+        <span>JAVASCRIPT</span><span class="star">★</span>
+        <span>REACT</span><span class="star">★</span>
+        <span>NODE.JS</span><span class="star">★</span>
+        <span>MONGODB</span><span class="star">★</span>
+        <span>WEBSOCKETS</span><span class="star">★</span>
+        <span>HTML</span><span class="star">★</span>
+        <span>CSS</span><span class="star">★</span>
+        <span>JAVASCRIPT</span><span class="star">★</span>
+        <span>REACT</span><span class="star">★</span>
+        <span>NODE.JS</span><span class="star">★</span>
+        <span>MONGODB</span><span class="star">★</span>
+        <span>WEBSOCKETS</span><span class="star">★</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="stats-inner">
+      <div class="stat">
+        <span class="stat-num" data-count="4">04</span>
+        <span class="stat-label">Years<br>coding</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="5">05</span>
+        <span class="stat-label">Products<br>shipped</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="7">07</span>
+        <span class="stat-label">Languages<br>& tools</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">17</span>
+        <span class="stat-label">Years<br>old</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work-section" id="work">
+    <div class="work-head">
+      <div class="work-head-left">
+        <span class="section-tag">02 — Selected Work</span>
+        <h2 class="section-title">
+          Five products.<br>
+          <span class="dim">Each one real.</span>
+        </h2>
+      </div>
+      <div class="work-head-right">
+        <p>Every project here was built end-to-end — concept, design, code, deploy. No templates. No tutorial clones.</p>
+      </div>
+    </div>
+
+    <div class="work-list" id="workList"></div>
+
+    <div class="work-footer">
+      <a href="work.html" class="link-arrow" data-cursor="hover">
+        <span>View all projects</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-head">
+        <span class="section-tag">03 — About</span>
+      </div>
+      <div class="about-content">
+        <p class="about-lead">
+          I started coding at 13. Not because someone told me to — because I wanted to <em>build</em> things I could click and share.
+        </p>
+        <p class="about-body">
+          Four years later I've shipped five full products — a bilingual hospital site,
+          a cyberpunk cybersecurity homepage, a real estate marketplace with working maps,
+          a productivity SaaS for students, and a food-rescue platform that actually connects
+          donors with families.
+        </p>
+        <p class="about-body">
+          I don't just write code. I care about typography, spacing, motion, whether the
+          Arabic version mirrors perfectly. I care about the <em>problem</em>, not just the tech.
+        </p>
+        <p class="about-closing">
+          I'm 17. I'm self-taught.<br>
+          <span class="accent">And I'm just getting started.</span>
+        </p>
+      </div>
+      <div class="about-side">
+        <div class="about-block">
+          <span class="about-block-label">Currently</span>
+          <ul>
+            <li><span>Status</span><strong>Available</strong></li>
+            <li><span>Location</span><strong>Alexandria, EG</strong></li>
+            <li><span>Focus</span><strong>Frontend · Fullstack</strong></li>
+          </ul>
+        </div>
+        <div class="about-block">
+          <span class="about-block-label">Stack</span>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>React</span><span>Node.js</span><span>MongoDB</span>
+            <span>WebSockets</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="contact-inner">
+      <span class="section-tag">04 — Contact</span>
+      <h2 class="contact-title">
+        Got a project?<br>
+        <span class="accent">Let's build it.</span>
+      </h2>
+      <a href="mailto:alfthwafaa7913@gmail.com" class="contact-email" data-cursor="hover">
+        <span>alfthwafaa7913@gmail.com</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="contact-meta">
+        <div><span>Phone</span><a href="tel:+201100552438">+20 110 055 2438</a></div>
+        <div><span>GitHub</span><a href="https://github.com/coder-warrior" target="_blank" rel="noopener">coder-warrior</a></div>
+        <div><span>Location</span><span>Alexandria, Egypt</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">ALI FATHI © 2025</span>
+      <span class="footer-note">Built from scratch. No templates.</span>
+      <a href="#top" class="footer-top" data-cursor="hover">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

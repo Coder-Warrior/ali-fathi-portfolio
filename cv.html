@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Ali Fathi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="cv-page-body">
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="grain"></div>
+
+  <header class="site-header no-print" id="navbar">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">ALI FATHI</span>
+      </a>
+      <nav class="nav" id="navLinks">
+        <a href="index.html#work" class="nav-link">Work</a>
+        <a href="work.html" class="nav-link">All Projects</a>
+        <a href="cv.html" class="nav-link active">CV</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="menu-toggle no-print" id="menuToggle" aria-label="Menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="cv-main">
+    <div class="cv-toolbar no-print">
+      <p>Print or save as PDF with <kbd>Ctrl</kbd>+<kbd>P</kbd></p>
+      <button class="btn btn-primary" onclick="window.print()">Print / Save PDF</button>
+    </div>
+
+    <article class="cv-document">
+      <header class="cv-header">
+        <h1>Ali Fathi</h1>
+        <p class="cv-role">Frontend & Fullstack Developer</p>
+        <div class="cv-contact">
+          <p>alfthwafaa7913@gmail.com</p>
+          <p>+20 110 055 2438</p>
+          <p>Alexandria, Egypt · 17 years old</p>
+          <p>github.com/coder-warrior</p>
+        </div>
+      </header>
+
+      <section class="cv-section">
+        <h2>Summary</h2>
+        <p>Self-taught developer with 4 years of hands-on experience building and shipping production web products. Comfortable across the stack — HTML, CSS, JavaScript, React, Node.js, MongoDB, WebSockets. Focused on clean UI, real user problems, and accessibility.</p>
+      </section>
+
+      <section class="cv-section">
+        <h2>Skills</h2>
+        <div class="cv-skills-grid">
+          <div>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5, semantic markup</li>
+              <li>CSS3, Grid, Flexbox</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React (hooks, state)</li>
+              <li>Responsive · RTL support</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Backend & Data</h3>
+            <ul>
+              <li>Node.js, Express</li>
+              <li>MongoDB, Mongoose</li>
+              <li>WebSockets</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tooling</h3>
+            <ul>
+              <li>Git · GitHub · GitHub Pages</li>
+              <li>LocalStorage persistence</li>
+              <li>Canvas API</li>
+              <li>Intersection Observer</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Selected Projects</h2>
+        <div class="cv-projects">
+          <div class="cv-project">
+            <div class="cv-project-head">
+              <h3>Al-Noor Specialized Hospital</h3><span>2025</span>
+            </div>
+            <p class="cv-project-sub">Bilingual hospital site — Arabic/English, 5 pages, doctor profiles, appointment form.</p>
+            <p class="cv-project-tech">HTML · CSS · JavaScript · Intersection Observer</p>
+            <p class="cv-project-link">coder-warrior.github.io/el-noor-hospital</p>
+          </div>
+          <div class="cv-project">
+            <div class="cv-project-head">
+              <h3>Dirʿ Al-Aman Cybersecurity</h3><span>2025</span>
+            </div>
+            <p class="cv-project-sub">Dark cyberpunk security firm site with matrix-rain canvas background and a live SOC dashboard visual.</p>
+            <p class="cv-project-tech">HTML · CSS · JavaScript · Canvas API</p>
+            <p class="cv-project-link">coder-warrior.github.io/dira-al-aman</p>
+          </div>
+          <div class="cv-project">
+            <div class="cv-project-head">
+              <h3>Dar Homes</h3><span>2025</span>
+            </div>
+            <p class="cv-project-sub">Real estate marketplace with Leaflet.js maps, live mortgage calculator, and property comparison.</p>
+            <p class="cv-project-tech">HTML · CSS · JavaScript · Leaflet.js</p>
+            <p class="cv-project-link">coder-warrior.github.io/dar-homes</p>
+          </div>
+          <div class="cv-project">
+            <div class="cv-project-head">
+              <h3>Mahamma — Productivity SaaS</h3><span>2025</span>
+            </div>
+            <p class="cv-project-sub">Task management for students: Kanban drag & drop, subjects, notes, memorization notebook. Full CRUD with LocalStorage.</p>
+            <p class="cv-project-tech">HTML · CSS · JavaScript · Drag & Drop API</p>
+            <p class="cv-project-link">coder-warrior.github.io/mahamma</p>
+          </div>
+          <div class="cv-project">
+            <div class="cv-project-head">
+              <h3>Share Goodness</h3><span>2025</span>
+            </div>
+            <p class="cv-project-sub">Food rescue platform connecting donors, volunteers, and families in need. Three user roles, live dashboard, bilingual.</p>
+            <p class="cv-project-tech">HTML · CSS · JavaScript · LocalStorage</p>
+            <p class="cv-project-link">coder-warrior.github.io/share-goodness</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Education</h2>
+        <div class="cv-edu">
+          <div class="cv-edu-head">
+            <h3>Self-Taught Developer</h3><span>2021 — Present</span>
+          </div>
+          <p>Learned through building real, deployed products — not tutorials.</p>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2>Languages</h2>
+        <div class="cv-languages">
+          <div><strong>Arabic</strong><span>Native</span></div>
+          <div><strong>English</strong><span>Professional</span></div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer no-print">
+    <div class="footer-inner">
+      <span class="footer-brand">ALI FATHI © 2025</span>
+      <a href="index.html" class="footer-top">← Back home</a>
+    </div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
